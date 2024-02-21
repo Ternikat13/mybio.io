@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('link-to-your-background-image.jpg') center/cover no-repeat fixed;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.profile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 100px; /* Регулируйте размер аватарки по вашему желанию */
+    height: 100px;
+    border: 2px solid #fff; /* Цвет рамки вокруг аватарки */
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+p {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+audio {
+    margin-top: 20px;
+}
